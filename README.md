@@ -30,5 +30,25 @@ Aplikasi dibuat untuk memenuhi tugas Mini Project 2 mata kuliah Pemrograman Bero
 - Karyawan.java (Subclass)
 - Minpro2PBOSistemManajemenDataKost.java (Main Class)
 
+  ## Alur Program
+
+Program dimulai dari class Minpro2PBOSistemManajemenDataKost sebagai main class.
+Pada saat program dijalankan, sistem membuat objek dari class Mahasiswa dan Karyawan yang merupakan turunan dari class PenghuniKost.
+Data penghuni kemudian ditampilkan menggunakan method tampilData().
+
+## Penerapan Encapsulation
+
+Konsep encapsulation diterapkan pada class PenghuniKost dengan menggunakan modifier private pada atribut dan menyediakan method getter serta setter untuk mengakses dan mengubah data.
+
+## Penerapan Inheritance
+
+Konsep inheritance diterapkan dengan membuat class Mahasiswa dan Karyawan sebagai subclass dari class PenghuniKost.
+Subclass tersebut mewarisi atribut dan method dari superclass PenghuniKost.
+
+## Penerapan Polymorphism
+
+Polymorphism diterapkan menggunakan method overriding pada method tampilData().
+Class Mahasiswa dan Karyawan memiliki implementasi tampilData() yang berbeda dari class PenghuniKost.
+
 ## Author
 Dzikri Andhika
